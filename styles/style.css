@@ -102,24 +102,33 @@ hr {
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 15px;
 }
 
 .course {
-    border: 0.5px solid #ddd;
+    border: 1px solid #ddd;
     border-radius: 7px;
-    padding: 12px 20px 2px 20px;
     background-color: aliceblue;
+    padding: 10px 15px;
 }
 
 .course .course-banner img {
-    width: 224px;
+    width: 247px;
     height: 104px;
 }
 
 .course-info {
     display: flex;
     align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.course-info {
+    display: flex;
+    font-size: 15px;
+    align-content: center;
     justify-content: space-between;
 }
 
